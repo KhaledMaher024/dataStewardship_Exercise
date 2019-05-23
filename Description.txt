@@ -1,0 +1,29 @@
+Most people think that cigarettes have an effect on the heart and on the lung only, 
+but many of us do not know how every cigarette smoked by humans affects the liver. 
+Tobacco products in all its forms have a severe effect on the liver. 
+This is because the toxins that are abundant in tobacco products cause inflammation. 
+And chronic signs in the liver, these infections in turn increase the susceptibility to 
+liver cancer
+
+ so the purpose of collecting this data to help smokers to git rid of these bad habbit
+
+
+-----------------------------------------------------------------
+the data collected contains the following information : 
+(the state : String , number of livercancer Incidance : int64 , number of smoker : int64 , year : int64)
+
+the data  stored as  CSV  file  withsize of  371 byte 			
+
+
+-----------------------------------------------------------------
+
+the data collected from 2 datasets from different websites , 
+the first one is from kaggle and its about number of tobacco usage in USA state from 1995 - 2015 
+and the other one was collected from data.gov website and its about liver cancer incidance in USA states from 1999 to 2010  
+, i made a set of procedure on the original datasets to prepare and analyze the data to be useful and can be used , 
+first of all is to check if the data has null values or not and fill the null field with the median value of the column , 
+the second procedure that eleminate the rows that is out of the specified period (2000-2010) , 
+then i convert the type of one column in the tobacco usage "Never smoked" by deleting the percentage mark and change the results string into float , 
+then i calculated the number of smoker by substracting 1 by the value of "Never smoker" column , and also i eliminated the rows that doesnt represent liver cancer in the second dataset , 
+and i make a function that work as groupby function and i added a new column that represent the summation or total # of incidance in one year for all years in the specified period , 
+then i merged the 2 datasets to results the final result  

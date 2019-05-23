@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8">
+<metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dc="">
+<dc:title>Liver Cancer & Tobacco Smokers</dc:title>
+<dc:creator> khaled maher awad</dc:creator>
+<dc:subject>correlation between the incidance of Liver Cancer and tobacco smoker in alabama state</dc:subject>
+<dc:description>automated tool that invastigates and compute the correlation between the number of tobacco smokerand the number of incidance of liver cancerin alabama state</dc:description>
+<dc:date>16.04.2019</dc:date>
+<dc:type>Python</dc:type>
+<dc:format>csv</dc:format>
+<dc:source>https://wonder.cdc.gov/cancer.html</dc:source>	
+<dc:source>https://www.kaggle.com/cdc/tobacco-use</dc:source>
+<dc:language>English</dc:language>
+<dc:coverage>2000-2010</dc:coverage>
+<dc:rights>Free Access</dc:rights>
